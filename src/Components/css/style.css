@@ -1,0 +1,65 @@
+.box{
+    display:flex;
+    flex-direction: column;
+    background:rgb(137, 218, 233);
+    border:1px solid white;
+    border-radius: 5px;
+    width:25vw;
+    padding-top:5%;
+    
+    margin:auto;
+    height: 50vh;
+    align-items:center;
+    margin-top:5%;
+    
+
+}
+
+.inputField{
+    border:1px solid black;
+    border-radius: 10px;
+    outline:none;
+    width:90%;
+    height:150%;
+    
+
+}
+
+.info{
+    padding-top:40%;
+}
+h1{
+    color:rgb(111, 177, 189);
+}
+.location{
+    font-weight: lighter;
+
+}
+.wave-one{
+    opacity :0.3;
+    position:absolute;
+    top:85%;
+    left:50%;
+    background:white;
+    width: 50rem;
+    height:50rem;
+    margin-left:-25rem;
+    margin-top:-20rem;
+    transform-origin:50% 48%;
+    border-radius:43%;
+    animation:pulse 3s infinite linear;
+    z-index:1;
+
+
+}
+
+
+
+p{
+    font-size: 13px;
+}
+
+.temp{
+    font-size: 20px;
+    color:rgb(91, 122, 128);
+}
