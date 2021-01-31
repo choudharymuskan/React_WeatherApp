@@ -5,12 +5,12 @@
     border:1px solid white;
     border-radius: 5px;
     width:25vw;
-    padding-top:5%;
+    padding-top:3%;
     
     margin:auto;
     height: 50vh;
     align-items:center;
-    margin-top:5%;
+    margin-top:3%;
     
 
 }
@@ -20,20 +20,23 @@
     border-radius: 10px;
     outline:none;
     width:90%;
-    height:150%;
+    height:125%;
+    /* margin-top:-65%; */
     
 
-}
+};
 
-.info{
-    padding-top:40%;
-}
+
+
 h1{
     color:rgb(111, 177, 189);
 }
 .location{
     font-weight: lighter;
 
+}
+.info{
+    margin-top:70%;
 }
 .wave-one{
     opacity :0.3;
@@ -58,8 +61,41 @@ h1{
 p{
     font-size: 13px;
 }
+.heading{
+    margin-top: 2%;
+    color:rgb(111, 177, 189);
+
+  }
 
 .temp{
     font-size: 20px;
     color:rgb(91, 122, 128);
+}
+
+@media only screen and (max-width: 600px)
+{
+    .box{
+        display:flex;
+        flex-direction: column;
+        background:rgb(137, 218, 233);
+        border:1px solid white;
+        border-radius: 5px;
+        width:70vw;
+        padding-top:10%;
+        
+        margin:auto;
+        height: 60vh;
+        align-items:center;
+        margin-top:5%;
+        margin-left:15%;
+        
+    
+    }
+    .info{
+        margin-top:40%;
+    }
+    .heading{
+      margin-left: 5%;
+      color:rgb(111, 177, 189);
+    }
 }

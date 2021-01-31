@@ -20,7 +20,7 @@ return (
     <>
  
     <div className="box">
-        <div classname="input">
+        <div className="input">
             <input type="search" 
             placeholder="Enter Place"
              className="inputField" 
